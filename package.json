@@ -1,6 +1,7 @@
 {
-  "name": "experiment",
-  "version": "0.1.0",
+  "name": "aruna",
+  "version": "1.0.0",
+  "description": "Aruna - Professional Makeup Artist Portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,9 +10,14 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.38.0",
     "next": "16.2.4",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
